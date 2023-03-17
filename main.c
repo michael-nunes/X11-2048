@@ -56,42 +56,21 @@ my_random(void) {
 
 static void
 set_color_for_value(int value) {
-	int color = 0xb1a194;
+	int color = 0;
 	switch(value) {
-		case 2:
-			color = 0xd5c7bc;
-			break;
-		case 4:
-			color = 0x008855;
-			break;
-		case 8:
-			color = 0xec8f52;
-			break;
-		case 16:
-			color = 0xe9733f;
-			break;
-		case 32:
-			color = 0xec5938;
-			break;
-		case 64:
-			color = 0xea3e1a;
-			break;
-		case 128:
-			color = 0xdbae49;
-			break;
-		case 256:
-			color = 0xdeac3d;
-			break;
-		case 512:
-			color = 0xdea82e;
-			break;
-		case 1024:
-			color = 0xdea523;
-			break;
-		case 2048:
-			color = 0xff1122;
-			break;
-	}
+			case 2:    color = 0xeee4da; break;
+			case 4:    color = 0xede0c8; break;
+			case 8:    color = 0xf2b179; break;
+			case 16:   color = 0xf59563; break;
+			case 32:   color = 0xf67c5f; break;
+			case 64:   color = 0xf65e3b; break;
+			case 128:  color = 0xedcf72; break;
+			case 256:  color = 0xedcc61; break;
+			case 512:  color = 0xedc850; break;
+			case 1024: color = 0xedc53f; break;
+			case 2048: color = 0xedc22e; break;
+			default: color = 0xcdc1b4; break;
+		}
 	XSetForeground(dpy, board_gc, color);
 }
 
