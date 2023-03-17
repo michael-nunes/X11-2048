@@ -32,6 +32,7 @@ void    board_move_up(board_t *board);
 void    board_move_down(board_t *board);
 
 #ifdef BOARD_IMPLEMENTATION
+#undef BOARD_IMPLEMENTATION
 
 unsigned int
 _board_random_tile(board_t *board, int max_power) {
