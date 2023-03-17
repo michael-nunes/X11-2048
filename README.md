@@ -18,7 +18,7 @@ it will output the Game2048 executable binary.
 # NOTICE
 MIT/X Consortium Licence
 
-Copyright (c) <2023> Michael Nunes <michael.nunes.kindle@gmail.com>
+Copyright (c) 2023 Michael Nunes <michael.nunes.kindle@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
